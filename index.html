@@ -115,6 +115,16 @@
         }
 
     </style>
+    <script>
+        // Функция для переключения на страницу 2
+        function goToPage2() {
+            // Скрываем блок страницы 1
+            document.getElementById("page1").style.display = "none";
+            
+            // Показываем блок страницы 2
+            document.getElementById("page2").style.display = "block";
+        }
+    </script>
 </head>
 <body>
 
@@ -122,7 +132,8 @@
     <h1>Wtool Other Programs zip</h1>
 </header>
 
-<main>
+<main id="page1">
+<p>Download <a href="https://github.com/Fandomgitnev/Protweak/releases/download/PROTWEKS/pronevmini.zip">Pronevmini.zip</a>.</p>
 <p>Download <a href="https://github.com/Fandomgitnev/WTool/raw/refs/heads/main/site/WTooLASTlN.zip">Wtool.zip</a>.</p>
 <p>Download <a href="https://github.com/Fandomgitnev/WTool/raw/refs/heads/main/site/7z.zip">7z.zip</a>.</p>
 <p>Download <a href="https://github.com/Fandomgitnev/WTool/raw/refs/heads/main/site/Web_Browser_PE.zip">Web_browser_PE.zip</a>.</p>
@@ -131,6 +142,7 @@
 <p>Download <a href="https://github.com/Fandomgitnev/Protweak/releases/download/PROTWEKS/PROTWEKSMINI.7z">ProTweakMini</a>.</p>
 <p>Download <a href="https://github.com/valleyofdoom/AppxPackagesManager/releases/download/1.4.3/AppxPackagesManager.exe">AppxPackagesManager.exe</a>.</p>
 <p>Goto <a href="https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/">Ungoogled</a>.</p>
+<button onclick="goToPage2()">Goto PAGE 2</button>
 </main>
 <footer>
     <p>&copy; <a href="https://github.com/Fandomgitnev">Fandomgitnev</a> </p>
@@ -148,6 +160,12 @@
 <div class="snowflake" style="left: 75%; font-size: 18px;">&#10052;</div>
 <div class="snowflake" style="left: 85%; font-size: 22px;">&#10052;</div>
 <div class="snowflake" style="left: 95%; font-size: 26px;">&#10052;</div>
+<div id="page2" style="display:none;">
+<h1>Page2</h1>
+<p>Download <a href="https://github.com/Fandomgitnev/xwallpaperlinux/releases/download/43/thems11.7z"> Thems11.7z</a>.</p>
+<p>Download <a href="https://github.com/Fandomgitnev/xwallpaperlinux/raw/refs/heads/main/Candy%20By%20oOILOVESONGOo.7z">skin cursor win.7z</a>.</p>
+<button onclick="window.location.reload()">Restart</button>
+</div>
 
 </body>
 </html>
